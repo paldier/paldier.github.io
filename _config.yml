@@ -2,15 +2,15 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://paldier.github.io
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+title: paldier的个人笔记
+subtitle: "paldier的个人笔记"
+description: "paldier的个人笔记"
+keywords: paldier, swrt
 timezone: Asia/Shanghai
 encoding: "utf-8"
-repository: mzlogin/mzlogin.github.io
+repository: paldier/paldier.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -20,7 +20,7 @@ components:
     # 分享
     # weibo,qq,wechat,douban,qzone,linkedin,facebook,twitter
     share:
-        enabled: false
+        enabled: true
         hide-platforms: qq,facebook
     # 不蒜子访问统计
     busuanzi:
@@ -36,8 +36,8 @@ components:
     # 页面右上角，以及「关于」页面的二维码
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
-        enabled: true
-        image_alt: 闷骚的程序员
+        enabled: false
+        image_alt: paldier的个人笔记
     # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
     wiki:
         view: cate
@@ -51,12 +51,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: 
-organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+author: paldier
+organization: SWRT-dev
+organization_url: https://github.com/SWRT-dev
+github_username: paldier
+location: HeBei, China
+email: paldier@hotmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -140,10 +140,10 @@ gitment:
         client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
+    owner: paldier
     repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    clientID: 0d1890af788a3a9541cc
+    clientSecret:  548904d8785d1b89eff2950f3379cc5a3bd3b878 
 # https://utteranc.es/
 utterances:
     repo: mzlogin/blog-comments
@@ -165,8 +165,8 @@ simple_jekyll_search:
 google:
     analytics_id: UA-80669434-1
     adsense:
-        footer: true
-        sidebar: true 
-        sidebar-detail: true 
+        footer: false
+        sidebar: false 
+        sidebar-detail: false 
         content_header: false
         content_footer: false
