@@ -17,6 +17,7 @@ keywords: 固件更新日志
 * 添加rtax86u支持，不含rtax86s.
 * 为rtax86u移植2种博通phy驱动，2种非博通phy驱动.
 * 为rtax86u解锁高达皮肤.
+* 优化aimesh有线网络问题.
 
 ### 5.1.6
 
