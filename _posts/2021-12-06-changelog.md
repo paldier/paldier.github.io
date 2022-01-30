@@ -7,18 +7,18 @@ keywords: 固件更新日志
 ---
 
 ### 5.1.8
-软件中心同时支持swrt官改和swrt.
-swrt官改：
-rtax82u/rtax86u添加鬼灭之刃皮肤.
-rtac68u/sbrac1900p/ea6700/r6300v2/dir868l同步386.45958.
-rtac3100/rtac5300/rtac88u同步386.45958.
-rtac86u/gtac2900同步386.45958.
-swrt：
-rtac85p/r6800/rmac2100适配swrt.
-mtk更新4.4内核.
-更新mt76x3/mt7615/mt7915驱动.
-mtk更新kvr漫游.
-mtk添加easymesh支持.
+* 软件中心同时支持swrt官改和swrt.
+* swrt官改：
+* rtax82u/rtax86u添加鬼灭之刃皮肤.
+* rtac68u/sbrac1900p/ea6700/r6300v2/dir868l同步386.45958.
+* rtac3100/rtac5300/rtac88u同步386.45958.
+* rtac86u/gtac2900同步386.45958.
+* swrt：
+* rtac85p/r6800/rmac2100适配swrt.
+* mtk更新4.4内核.
+* 更新mt76x3/mt7615/mt7915驱动.
+* mtk更新kvr漫游.
+* mtk添加easymesh支持.
 
 ### 5.1.7
 * mtk系列添加kvr漫游支持.
